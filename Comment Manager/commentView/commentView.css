@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+.testimonials-container {
+	background-color: #0288D1;
+	border-radius: 4px;
+	color: #fff;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	margin: 40px;
+	max-width: 768px;
+	padding: 30px 40px;
+	position: relative;
+}
+
+
+
+.testimonial {
+	line-height: 28px;
+	text-align: justify;
+}
+
+.centered-items {
+	border-top: 2px solid #ccc;
+	margin: 5px;
+	padding-top: 15px;
+
+}
+
+
+.username {
+	font-weight: normal;	
+	margin: 0;
+}
+
+.role {
+	font-weight: normal;
+	margin: 2px 0;
+}
+
+
+@keyframes grow {
+	0% {
+		transform: scaleX(0);
+	}
+}
+
+@media (max-width: 768px) {
+	.testimonials-container {
+		padding: 20px 30px;
+	}
+	
+	.fa-quote {
+		display: none;
+	}
+}

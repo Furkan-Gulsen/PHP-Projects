@@ -1,0 +1,25 @@
+.box{
+  position: relative;
+  width: 600px;
+  font-size: 20px;
+  margin: 20px;
+}
+.name{
+  text-transform: uppercase;
+  float: left;
+  width: 200px;
+}
+.but1{
+  padding: 5px 10px;
+  background:  #262626;
+  color: #f2f2f2; 
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.but2{
+  padding: 5px 10px;
+  background:#a60000;
+  color: #f2f2f2; 
+  border-radius: 5px;
+  margin-right: 20px;
+}
