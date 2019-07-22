@@ -1,0 +1,41 @@
+body{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button{
+  width: 600px;
+  padding: 10px;
+  background: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 0px 0px 6px 6px;
+  cursor: pointer;
+}
